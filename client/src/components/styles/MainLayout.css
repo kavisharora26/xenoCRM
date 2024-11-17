@@ -1,0 +1,23 @@
+.main-layout {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
+    background-color: #f8fafc;
+  }
+  
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    transition: all 0.3s ease;
+  }
+  
+  .main-content {
+    padding: 2rem;
+    overflow-y: auto;
+    animation: fadeIn 0.3s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }

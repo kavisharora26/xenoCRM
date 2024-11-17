@@ -1,0 +1,28 @@
+.create-campaign {
+    max-width: 800px;
+    margin: 0 auto;
+    animation: slideUp 0.3s ease-out;
+  }
+  
+  .campaign-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .campaign-form textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 0.75rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    resize: vertical;
+    transition: all 0.2s ease;
+  }
+  
+  .campaign-form textarea:focus {
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+  }

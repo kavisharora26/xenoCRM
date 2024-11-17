@@ -1,0 +1,29 @@
+.campaign-list {
+    animation: fadeIn 0.3s ease-in;
+  }
+  
+  .campaign-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .campaign-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .campaign-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+  }
+  
+  .campaign-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
